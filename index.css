@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  #contaner {
+    background-color: beige;
+    border: 2px solid;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .box {
+    height: 90px;
+    width: 100px;
+    border: 2px solid;
+    margin: 5px;
+    border-radius: 50%;
+  }
+  #box1 {
+    background-color: green;
+  }
+  #box2 {
+    background-color: yellow;
+  }
+  #box3 {
+    background-color: red;
+  }
+  #box {
+    background-color: black;
+    padding: 25px;
+    border-radius: 10%;
+  }
+  #bar {
+    background-color: black;
+    width: 40px;
+    height: 250px;
+  }
+  #road {
+    height: 250px;
+    background-color: rgb(132, 164, 222);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .line {
+    width: 30px;
+    height: 10px;
+    background-color: white;
+  }
