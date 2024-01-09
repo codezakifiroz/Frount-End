@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.1);
+    background-color: pink;
+}
+#navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+}
+nav li{
+    height: 50px;
+    
+}
+li a{
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+}
+a:hover{
+    border-bottom: 2px solid;
+}
+ul li:first-child{
+    margin-right: auto;
+    font-size: 25px;
+}
+#log,#shop{
+    justify-content: center;
+    align-self: center;
+}
