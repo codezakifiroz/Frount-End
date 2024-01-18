@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+footer{
+    display: inline-flex;
+    background-color: aqua;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    width: 80%;
+   
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.color{
+    border-radius: 25px;
+    width: 105px;
+    height: 60px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#olive{
+    background-color: olive;
+}
+#yellow{
+    background-color: yellow;
+    color: black;
+}
+#grey{
+    background-color: grey;
+    
+}
+#pink{
+    background-color: pink;
+    color: black;
+}
+
+#purple{
+    background-color: purple;
+    color: black;
+}
+
+#lavender{
+    background-color: lavender;
+    color: black;
+}
+
+#white{
+    background-color: white;
+    color: black;
+}
+#black{
+    background-color: black;
+}
